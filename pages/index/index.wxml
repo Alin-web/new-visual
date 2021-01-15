@@ -1,0 +1,63 @@
+<view class="index">
+  <view class="nav container">
+    <image src="/images/logo.png" mode="heightFix"></image>
+    <view>
+      <button class="but" plain  open-type="contact" ><image src="/images/xiaoxi.png" alt="" mode="heightFix"></image></button>
+    </view>  
+  </view>
+  <view class="banner">
+    <swiper indicator-dots indicator-active-color="#fff" autoplay interval="3000">
+      <!-- 图片如果设置mode=""的属性值  会导致图片右侧有一点空白 解决方案是给里面的图片图片加宽度 -->
+      <swiper-item><image   src="/images/banner1.jpg"></image></swiper-item>
+      <swiper-item><image   src="/images/banner2.jpg"></image></swiper-item>
+      <swiper-item><image   src="/images/banner3.jpg"></image></swiper-item>
+    </swiper>
+  </view>
+  <scroll-view scroll-x="{{true}}"    class="scrollx">
+      <view  wx:for="{{kc}}" class="box">
+        <image src="{{item.url}}" alt=""></image>
+        <view class="title">{{item.title}}</view>
+      </view>
+  </scroll-view>
+  <view class=" con container">
+    <view class="public">
+    <view class="tit">学生作品</view>
+    <navigator class="jump">更多 > </navigator>
+    </view>
+    <view class="list">
+      <view class="item" wx:for="{{Students_Work}}" :key="{{index}}">
+        <image class="imgs" src="{{item.image}}" />
+        <view class="details">
+          <view class="ui" >{{item.tit}}</view>
+          <view class="yy">{{item.info}}</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class="hy container">
+    <view class="public">
+      <view class="tit">行业动态</view>
+      <navigator class="jump">更多 > </navigator>
+    </view>
+    <view class="info">
+      <view  class="info_item" wx:for="{{Students_Work}}" :key="{{index}}">
+        <view class="info_item_left">
+          <image class="imgs" src="{{item.image}}" />
+        </view>
+        <view class="info_item_right">
+          <view class="info_item_tit">CD4必装插件,你知道几款</view>
+          <view class="info_item_content"><view >作者:天王盖地虎</view><view>时间:2021-1-15</view></view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <view class="foot">
+    <view class="lg">
+      <image  class="cimg" mode="heightFix" src="/images/logo.png"></image>
+      <view class="val">-高端教育品牌-</view>
+    </view>
+  </view>
+
+</view>

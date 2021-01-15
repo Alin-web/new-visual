@@ -1,0 +1,171 @@
+.index{
+    width: 100%;
+    .nav{
+      height: 100rpx;
+      display: flex;
+      justify-content: space-between;
+      image{
+        height: 50rpx;
+        margin: auto 0;
+      }
+      .but{
+        width:50rpx;
+        border:none;
+        animation: dh 1s infinite linear;
+        margin: auto 0;
+      }
+    }
+    .banner{
+      swiper{
+        width: 100%;
+        swiper-item{
+          width: 100%;
+          image{
+            width: 100%;
+            height: 295rpx;
+          }
+        }
+      }
+    }
+    .scrollx{
+      white-space: nowrap;
+      // scroll-view  需要添加不换行
+      .box{
+        // 字元素盒子需要成为行内快元素给特点的宽
+        display: inline-block;
+        width: 200rpx;
+        text-align: center;
+        image{
+          width: 90rpx;
+          height: 90rpx;
+          margin-top: 10rpx;
+        }
+        .title{
+          font-size: 26rpx;
+        }
+      }
+    }
+    .con{
+      background: #F3F5FA;
+      .public{
+        width: 100%;
+        display: flex;
+        margin-top: 20rpx;
+        justify-content: space-between;
+        padding-top: 40rpx;
+        .tit{
+          font-size: 35rpx;
+          line-height: 35rpx;
+          padding-left: 20rpx;
+          border-left: 4rpx solid red;
+          font-weight: 500;
+        }
+        .jump{
+          font-size: 30rpx;
+        }
+      }
+      .list{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 40rpx;
+        .item{
+          margin-top: 10rpx;
+          width: 340rpx;
+         
+          image{
+            height: 220rpx;
+          }
+          .details{
+            height: 120rpx;
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+            .ui{
+              font-size: 30rpx;
+              font-weight: 600;
+              padding-top: 20rpx;
+            }
+            .yy{
+              font-size: 20rpx;
+              margin-top: 10rpx;
+              color:  #bbbbbb;;
+            }
+          }
+        }
+      }
+    }
+    .hy{
+      padding-bottom: 80rpx;
+      .public{
+        width: 100%;
+        display: flex;
+        margin-top: 20rpx;
+        justify-content: space-between;
+        padding:30rpx 0;
+        .tit{
+          font-size: 35rpx;
+          line-height: 35rpx;
+          padding-left: 20rpx;
+          border-left: 4rpx solid red;
+          font-weight: 500;
+        }
+        .jump{
+          font-size: 30rpx;
+        }
+      }
+      .info{
+        width: 100%;
+        
+        .info_item{
+          border-bottom:1rpx dashed #ccc;
+          padding:20rpx 0;
+          
+          display: flex;
+          .info_item_left{
+            width: 230rpx;
+            height: 150rpx;
+          }
+          .info_item_right{
+            width: 100%;
+            margin-left: 20rpx;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .info_item_tit{
+              font-size: 30rpx;
+            }
+            .info_item_content{
+              width: 100%;
+              
+              display: flex;
+              justify-content: space-between;
+              font-size: 24rpx;
+            }
+          }
+        }
+        
+      }
+    }
+    .foot{
+      background: #F3F5FA;
+      padding: 40rpx 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .lg{
+        display: inline-block;
+        height: 90rpx;
+        text-align: center;
+        .cimg{
+          height: 50rpx;
+        }
+        .val{
+          font-size: 24rpx;
+        }
+      }
+      
+    }
+}

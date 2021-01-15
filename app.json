@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "新视觉实训",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

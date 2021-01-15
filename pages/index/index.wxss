@@ -1,0 +1,161 @@
+.index {
+  width: 100%;
+}
+.index .nav {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.index .nav image {
+  height: 50rpx;
+  margin: auto 0;
+}
+.index .nav .but {
+  width: 50rpx;
+  border: none;
+  animation: dh 1s infinite linear;
+  margin: auto 0;
+}
+.index .banner swiper {
+  width: 100%;
+}
+.index .banner swiper swiper-item {
+  width: 100%;
+}
+.index .banner swiper swiper-item image {
+  width: 100%;
+  height: 295rpx;
+}
+.index .scrollx {
+  white-space: nowrap;
+}
+.index .scrollx .box {
+  display: inline-block;
+  width: 200rpx;
+  text-align: center;
+}
+.index .scrollx .box image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-top: 10rpx;
+}
+.index .scrollx .box .title {
+  font-size: 26rpx;
+}
+.index .con {
+  background: #F3F5FA;
+}
+.index .con .public {
+  width: 100%;
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between;
+  padding-top: 40rpx;
+}
+.index .con .public .tit {
+  font-size: 35rpx;
+  line-height: 35rpx;
+  padding-left: 20rpx;
+  border-left: 4rpx solid red;
+  font-weight: 500;
+}
+.index .con .public .jump {
+  font-size: 30rpx;
+}
+.index .con .list {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 40rpx;
+}
+.index .con .list .item {
+  margin-top: 10rpx;
+  width: 340rpx;
+}
+.index .con .list .item image {
+  height: 220rpx;
+}
+.index .con .list .item .details {
+  height: 120rpx;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.index .con .list .item .details .ui {
+  font-size: 30rpx;
+  font-weight: 600;
+  padding-top: 20rpx;
+}
+.index .con .list .item .details .yy {
+  font-size: 20rpx;
+  margin-top: 10rpx;
+  color: #bbbbbb;
+}
+.index .hy {
+  padding-bottom: 80rpx;
+}
+.index .hy .public {
+  width: 100%;
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between;
+  padding: 30rpx 0;
+}
+.index .hy .public .tit {
+  font-size: 35rpx;
+  line-height: 35rpx;
+  padding-left: 20rpx;
+  border-left: 4rpx solid red;
+  font-weight: 500;
+}
+.index .hy .public .jump {
+  font-size: 30rpx;
+}
+.index .hy .info {
+  width: 100%;
+}
+.index .hy .info .info_item {
+  border-bottom: 1rpx dashed #ccc;
+  padding: 20rpx 0;
+  display: flex;
+}
+.index .hy .info .info_item .info_item_left {
+  width: 230rpx;
+  height: 150rpx;
+}
+.index .hy .info .info_item .info_item_right {
+  width: 100%;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.index .hy .info .info_item .info_item_right .info_item_tit {
+  font-size: 30rpx;
+}
+.index .hy .info .info_item .info_item_right .info_item_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+.index .foot {
+  background: #F3F5FA;
+  padding: 40rpx 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.index .foot .lg {
+  display: inline-block;
+  height: 90rpx;
+  text-align: center;
+}
+.index .foot .lg .cimg {
+  height: 50rpx;
+}
+.index .foot .lg .val {
+  font-size: 24rpx;
+}
